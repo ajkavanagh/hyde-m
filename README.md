@@ -1,9 +1,11 @@
-Hyde-X
-======
+Hyde-M (M for modified)
+=======================
 
-Enhanced port of the Jekyll "[Hyde](https://github.com/poole/hyde)" theme to the [Hugo](http://gohugo.io) site generator. Check below for a list of enhancements.
+This is a fork of [Hyde-X](https://github.com/zyro/hyde-x) theme with things that I prefer (such as smaller social icons, a heading, etc.).  Fork it, take what you like, and then carry on!
 
-You can find a live site using this theme [here](http://andreimihu.com) and the corresponding source code [here](https://github.com/zyro/andreimihu.com).
+Hyde-X is/was an enhanced port of the Jekyll "[Hyde](https://github.com/poole/hyde)" theme to the [Hugo](http://gohugo.io) site generator. Check below for a list of enhancements.
+
+You can find a live site using this theme [here](http://alex.kavanagh.name) and the corresponding code for the blog [here](https://github.com/ajkavanagh/alex.kavanagh.name).
 
 * [Installation](#installation)
 * [Usage](#usage)
@@ -21,7 +23,7 @@ You can find a live site using this theme [here](http://andreimihu.com) and the 
 $ cd your_site_repo/
 $ mkdir themes
 $ cd themes
-$ git clone https://github.com/zyro/hyde-x
+$ git clone https://github.com/ajkavanagh/hyde-m
 ```
 
 See the [official Hugo themes documentation](http://gohugo.io/themes/installing) for more info.
@@ -65,6 +67,7 @@ paginate = 10
 [taxonomies]
     # Optional. Use if you want tags and lists.
     category = "categories"
+    tag = "tags"
 
 #
 # All parameters below here are optional and can be mixed and matched.
@@ -124,13 +127,13 @@ paginate = 10
 
 ### Built-in colour themes
 
-Hyde-X provides 8 built-in colour themes by default, with the option to define more in your own custom CSS.
+Hyde-M (like Hyde-X before it) provides 8 built-in colour themes by default, with the option to define more in your own custom CSS.
 
-![Hyde-X theme classes](https://github.com/zyro/hyde-x/blob/master/images/theme-colours.png)
+![Hyde-M theme classes](https://github.com/ajkavanagh/hyde-m/blob/master/images/theme-colours.png)
 
 ### Tips
 
-* If you've added `theme = "hyde-x"` to your `config.toml`, you don't need to keep using the `--theme=hyde-x` flag!
+* If you've added `theme = "hyde-m"` to your `config.toml`, you don't need to keep using the `--theme=hyde-m` flag!
 * Pages where you specify `menu = "main"` in the front matter will be linked in the sidebar just below the `Blog` link.
 * Use the exact permalink format above to maintain old links if migrating from Jekyll/Octopress.
 * Although all of the syntax highlight CSS files under the theme's `static/css/highlight` are bundled with the site, only the one you choose will be included in the page and delivered to the browser.
@@ -154,12 +157,12 @@ Hyde-X provides 8 built-in colour themes by default, with the option to define m
 
 ### Attribution
 
-Obviously largely a port of the awesome [Hyde](https://github.com/poole/hyde) theme.
+Obviously largely a port of the awesome [Hyde](https://github.com/poole/hyde) and [Hyde-X](https://github.com/zyro/hyde-x) themes.
 
 ### Questions, ideas, bugs, pull requests?
 
-All feedback is welcome! Head over to the [issue tracker](https://github.com/zyro/hyde-x/issues).
+All feedback is welcome! Head over to the [issue tracker](https://github.com/ajkavanagh/hyde-m/issues).
 
 ### License
 
-Open sourced under the [MIT license](https://github.com/zyro/hyde-x/blob/master/LICENSE).
+Open sourced under the [MIT license](https://github.com/ajkavanagh/hyde-m/blob/master/LICENSE).
