@@ -89,7 +89,7 @@ paginate = 10
     # Changes sidebar background and link/accent colours.
     # See below for more colour options.
     # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
-    theme = "theme-base-08"
+    scheme = "theme-base-08"
 
     # Select a syntax highight.
     # Check the static/css/highlight directory for options.

@@ -1,4 +1,4 @@
-{{ partial "head.html" . }}
+{{ define "main" }}
 <div class="content container">
   <h1>
     {{ if isset .Data "category" }}Category:&nbsp;{{ end }}
@@ -7,7 +7,9 @@
   </h1>
   <ul class="posts">
   {{ range .Data.Pages }}
-    <li><a href="{{ .Permalink }}">{{ .Title }}</a>
+    <li>
+      {{ if .Draft }}<span><em>Draft</em> - <span>{{ end }}
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
     {{ if .Params.categories }}
     &middot;
     {{ range .Params.categories }}<a class="label" href="{{ "/categories/" | absURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
@@ -20,4 +22,4 @@
   {{ end }}
   </ul>
 </div>
-{{ partial "foot.html" . }}
+{{ end }}
